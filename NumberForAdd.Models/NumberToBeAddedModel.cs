@@ -9,7 +9,7 @@
         }
         public int GetNum()
         {
-            return _num;
+            return _num; //this is returning the number
         }
     }
 }

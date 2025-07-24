@@ -10,7 +10,7 @@ namespace Addition.Managers
             int sum = number1 + number2;
 
             AdditionResModel resObj = new AdditionResModel(sum);
-            return resObj.GetSum();
+            return resObj.GetSum();//this returns the result t
         }
     }
 }
