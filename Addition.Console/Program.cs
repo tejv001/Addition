@@ -1,0 +1,14 @@
+﻿using NumberForAdd.Models;
+using Addition.Managers;
+using System;
+class Program
+{
+    public static void Main(string[] args)
+    {
+        NumberToBeAddedModel modelObj1 = new NumberToBeAddedModel(5);
+        NumberToBeAddedModel modelObj2 = new NumberToBeAddedModel(6);
+        AdditionManager managerObj = new AdditionManager();
+        int sumOfNums = managerObj.AdditionMethod(modelObj1, modelObj2);
+        Console.WriteLine($"The sum of both Numbers is : {sumOfNums}");
+    }
+}
