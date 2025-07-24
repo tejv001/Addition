@@ -9,6 +9,6 @@ class Program
         NumberToBeAddedModel modelObj2 = new NumberToBeAddedModel(6);
         AdditionManager managerObj = new AdditionManager();
         int sumOfNums = managerObj.AdditionMethod(modelObj1, modelObj2);
-        Console.WriteLine($"The sum of both Numbers is : {sumOfNums}");
+        Console.WriteLine($"The sum of both Numbers is : {sumOfNums}");//this is a console application t
     }
 }
