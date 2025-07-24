@@ -15,7 +15,7 @@ namespace NumberForAdd.Models
 
         public int GetSum()
         {
-            return _sum; //this return sum
+            return _sum; //this return sum added t
         }
     }
 }
